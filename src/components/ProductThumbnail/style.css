@@ -1,0 +1,32 @@
+.product-thumbnail {
+    
+    width: 33.3%;
+    height: 400px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product-thumbnail__image {
+    margin-bottom: 30px;
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.product-thumbnail__image img {
+    width: auto;
+    height: 100%;
+}
+
+.product-thumbnail__brand {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.product-thumbnail__name, 
+.product-thumbnail__price  {
+    font-size: 15px
+}
